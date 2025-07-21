@@ -1,10 +1,17 @@
 import React, {useState} from 'react'
 import Navbar from "~/components/Navbar";
+import FileUploader from "~/components/FileUploader";
 
 const Upload = () => {
 
     const [isProcessing, setIsProcessing] = useState(false)
     const [statusText, setStatusText] = useState('')
+    const [file, setFile] = useState<File | null>(null)
+    
+    const handleFileSelect = (file:File | null) => {
+        setFile(file)
+    }
+
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {}
 
     return (
@@ -51,9 +58,7 @@ const Upload = () => {
                                 <label htmlFor="uploader">
                                     Upload Resume
                                 </label>
-                                <div>
-                                    Uploader
-                                </div>
+                                <FileUploader onFileSelect={handleFileSelect} />
                                 <button className="primary-button" type="submit">
                                     Analyze Resume
                                 </button>
