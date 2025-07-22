@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7afa210-44b9-4c6b-8a14-db308624e3e3" name="Changes" comment="PDF upload implemented">
-      <change afterPath="$PROJECT_DIR$/app/lib/pdf2image.ts" afterDir="false" />
+    <list default="true" id="c7afa210-44b9-4c6b-8a14-db308624e3e3" name="Changes" comment="Cloud Storage, PDF-Image conversion, Key-Value storage and AI feedback.">
+      <change afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/FileUploader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/FileUploader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/puter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +92,7 @@
       <workItem from="1753104021063" duration="735000" />
       <workItem from="1753105054427" duration="4467000" />
       <workItem from="1753121690585" duration="9304000" />
-      <workItem from="1753193641891" duration="3653000" />
+      <workItem from="1753193641891" duration="10752000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar and Resume Card Front-End Implemented">
       <option name="closed" value="true" />
@@ -155,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753130156744</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cloud Storage, PDF-Image conversion, Key-Value storage and AI feedback.">
+      <option name="closed" value="true" />
+      <created>1753197776211</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753197776211</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,7 @@
     <MESSAGE value="Authentication" />
     <MESSAGE value="Upload Form Fron-End Implemented" />
     <MESSAGE value="PDF upload implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="PDF upload implemented" />
+    <MESSAGE value="Cloud Storage, PDF-Image conversion, Key-Value storage and AI feedback." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cloud Storage, PDF-Image conversion, Key-Value storage and AI feedback." />
   </component>
 </project>
