@@ -40,7 +40,7 @@ const Resume = () => {
             const resumeUrl = URL.createObjectURL(pdfBlob);
             setResumeUrl(resumeUrl);
 
-            const imageBlob = await fs.read(data.imageUrl);
+            const imageBlob = await fs.read(data.imagePath);
             if(!imageBlob) return;
 
             const imageUrl = URL.createObjectURL(imageBlob);
