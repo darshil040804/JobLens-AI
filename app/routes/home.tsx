@@ -49,9 +49,8 @@ export default function Home() {
           {!loadingResumes && resumes.length === 0 ? (
               <h2>No resumes found. Upload your first resume to get feedback</h2>
           ) : (
-              <h2>Review your submissions and check the AI-powered feedback</h2>
+              <h2>Review your submissions and get the AI-powered feedback</h2>
           )}
-          <h2>Review your submissions and get AI-powered feedback</h2>
         </div>
       {loadingResumes && (
           <div className="flex flex-col items-center justify-center">
