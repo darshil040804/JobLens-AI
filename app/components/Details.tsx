@@ -11,26 +11,26 @@ const ScoreBadge = ({ score }: { score: number }) => {
         <div
             className={cn(
                 "flex flex-row gap-1 items-center px-2 py-0.5 rounded-[96px]",
-                score > 69
+                score > 74
                     ? "bg-badge-green"
-                    : score > 39
+                    : score > 49
                         ? "bg-badge-yellow"
                         : "bg-badge-red"
             )}
         >
             <img
-                src={score > 69 ? "/icons/check.svg" : "/icons/warning.svg"}
+                src={score > 74 ? "/icons/check.svg" : "/icons/warning.svg"}
                 alt="score"
                 className="size-4"
             />
             <p
                 className={cn(
                     "text-sm font-medium",
-                    score > 69
-                        ? "text-badge-green-text"
-                        : score > 39
-                            ? "text-badge-yellow-text"
-                            : "text-badge-red-text"
+                    score > 74
+                        ? "text-green-600"
+                        : score > 49
+                            ? "text-yellow-600"
+                            : "text-red-600"
                 )}
             >
                 {score}/100
